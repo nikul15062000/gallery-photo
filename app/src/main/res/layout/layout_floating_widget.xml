@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/root_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/expanded_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#666666">
+
+            <VideoView
+                android:id="@+id/pop_up_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <ImageButton
+                android:id="@+id/close_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_close" />
+
+            <ImageView
+                android:id="@+id/open_full_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_full_screen" />
+
+            <ImageView
+                android:id="@+id/play_pause_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/pause_btn"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/music_controls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bar"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/current_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="start"
+                    android:textColor="#fff"
+                    android:textSize="13sp" />
+
+                <SeekBar
+                    android:id="@+id/video_seekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_span="2"
+                    android:layout_toLeftOf="@+id/left_time"
+                    android:layout_toRightOf="@id/current_position"
+                    android:background="#000" />
+
+                <TextView
+                    android:id="@+id/left_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="total"
+                    android:textColor="#fff"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

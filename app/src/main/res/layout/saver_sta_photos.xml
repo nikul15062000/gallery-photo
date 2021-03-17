@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/medianotfound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/_16sdp"
+        android:visibility="gone"
+        android:text="Media not found"
+        android:gravity="center"
+        android:background="@color/white"/>
+
+    <GridView
+        android:layout_above="@+id/actionLay"
+        android:id="@+id/WorkImageGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/actionLay"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/Themecolor"
+        >
+        <RelativeLayout
+            android:id="@+id/downloadIV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_download"
+                app:tint="@color/white" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:padding="@dimen/_10sdp"
+            android:background="@color/white"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/deleteIV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_delete" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

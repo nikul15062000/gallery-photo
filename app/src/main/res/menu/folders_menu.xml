@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always"
+        android:title="Search"
+        android:visible="false" />
+    <!--<item-->
+        <!--android:id="@+id/action_share"-->
+        <!--android:icon="@drawable/ic_share"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="Share" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_more_apps"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="More" />-->
+    <item
+        android:id="@+id/action_network_stream"
+        app:showAsAction="ifRoom"
+        android:title="Network Stream"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_view"
+        app:showAsAction="ifRoom"
+        android:title="View"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_select"
+        app:showAsAction="ifRoom"
+        android:title="Select"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_equalizer"
+        app:showAsAction="ifRoom"
+        android:title="Equalizer"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_settings"
+        app:showAsAction="ifRoom"
+        android:title="Settings"
+        android:visible="false" />
+</menu>

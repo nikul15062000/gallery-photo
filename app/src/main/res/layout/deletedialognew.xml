@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/txtdellll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="Do you want to delete all video of this folder?"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:id="@+id/ok_btn"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtdellll"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="OK"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cancel_btn"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/txtdellll"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/ok_btn"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Cancel"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

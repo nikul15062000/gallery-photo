@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Gallery Photo Video</string>
+    <string name="local_folder">Local Folders</string>
+    <string name="create_new_folder">Create new folder</string>
+    <string name="new_folder">new folder</string>
+    <string name="ok_action">OK</string>
+    <string name="sort_menu_title">Sort</string>
+    <string name="open_with">Open with</string>
+    <string name="orientation">Orientation</string>
+    <string name="gmd_create_new_folder">gmd_create_new_folder</string>
+    <string name="preference_accent_color">accent_color</string>
+    <string name="preference_apply_theme_pager">apply_theme_img_act</string>
+    <string name="preference_auto_rotate">set_picture_orientation</string>
+    <string name="preference_auto_update_media">auto_update_media</string>
+    <string name="preference_base_theme">basic_theme</string>
+    <string name="preference_colored_nav_bar">nav_bar</string>
+    <string name="preference_delay_full_image">set_delay_full_image</string>
+    <string name="preference_include_video">set_include_video</string>
+    <string name="preference_internal_player">set_internal_player</string>
+    <string name="storage_permission_denied">Permission to access storage was denied!\n I\'m not able to get your images!</string>
+    <string name="preference_use_alternative_provider">alternative_provider</string>
+    <string name="preference_internal_uri_extsdcard_photos">uri_extsdcard_photos</string>
+    <string name="got_permission_wr_sdcard">Obtained permission to write on the SD-Card.</string>
+    <string name="sd_card_write_permission_title">SD-Card write permission</string>
+    <string name="sd_card_permissions_message">In the next screen, please select the root of the SD card in the left sidebar and confirm at the bottom, to grant the writing permission of the SD card.</string>
+    <string name="clear_selected">Clear Selected</string>
+    <string name="search_menu">search</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="camera">Camera</string>
+    <string name="location">Location</string>
+    <string name="path">Path</string>
+    <string name="type">Type</string>
+    <string name="resolution">Resolution</string>
+    <string name="size">Size</string>
+    <string name="date">Date</string>
+    <string name="duration">Duration</string>
+    <string name="date_taken">Date taken</string>
+    <string name="exif">EXIF</string>
+    <string name="install_shortcut">Install shortcut</string>
+    <string name="select_all">Select All</string>
+    <string name="unhide">Unhide</string>
+    <string name="hide">Hide</string>
+    <string name="coming_soon">Comming Soon</string>
+    <string name="un_pin">Un Pin</string>
+    <string name="general_action">general action</string>
+    <string name="pin">Pin</string>
+    <string name="affix_error">Can not affix video, you must select at least 2 images.</string>
+    <string name="cancel">cancel</string>
+    <string name="sent_to_action">sent to action</string>
+    <string name="send_to">send to</string>
+    <string name="copy_to">copy to</string>
+    <string name="move_to">move to</string>
+    <string name="exclude">exclude</string>
+    <string name="exclude_album_message">exclude album message</string>
+    <string name="exclude_albums_message">exclude albumss message</string>
+    <string name="unhide_album_message">unhide album message</string>
+    <string name="hide_album_message">hide album message</string>
+    <string name="rename_album">Rename album </string>
+    <string name="delete_album_message">Are You Sure to Want to delete this file??</string>
+    <string name="delete_photos_message">Are You Sure to Want to delete this file??</string>
+    <string name="delete">Delete</string>
+    <string name="preference_use_password">preference use password</string>
+    <string name="preference_use_password_on_delete">preference use password on delete</string>
+    <string name="preference_use_password_on_hidden">preference use password on hidden</string>
+    <string name="preference_password_value">preference password value</string>
+    <string name="wrong_password">wrong password</string>
+    <string name="insert_something">insert something</string>
+    <string name="quality">quality</string>
+    <string name="affix">affix</string>
+    <string name="affix_text">affix text</string>
+
+    <string name="review_text1">Help us get better:</string>
+    <string name="review_text2">Had you enjoy this app?</string>
+    <string name="review_text_hate">it is ok</string>
+    <string name="review_text_love">it is good</string>
+
+    <string name="folderName">Folder Name</string>
+    <string name="appName">Simple Image Gallery</string>
+    <string name="empty">No Images on this device</string>
+    <string name="photos_name">Photos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="help">Help</string>
+    <string name="click_to_open">Click to open\nWhatsApp or WA Business</string>
+    <string name="recent_status">Recent Status</string>
+    <string name="downloaded_status">Downloaded Status</string>
+    <string name="whatsapp_cleaner">Whatsapp Cleaner</string>
+    <string name="rate_us">Rate</string>
+    <string name="share">Share</string>
+    <string name="privacy">Privacy</string>
+    <string name="more_app">More App</string>
+    <string name="gifs">GIFs</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="document">Document</string>
+    <string name="audio">Audio</string>
+    <string name="voice">Voice</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="delete_items_blank">Delete Selected Items (0B)</string>
+    <string name="there_apos_s_nothing_here">There\'s nothing here!</string>
+    <string name="how_to_use">Help</string>
+
+    <!--steps-->
+    <string name="step_1">Step 1</string>
+    <string name="first_step">Tap on \"Click to open\" icon.</string>
+    <string name="step_2">Step 2</string>
+    <string name="second_step">Click to open Whatsapp or WA Business button.</string>
+    <string name="step_3">Step 3</string>
+    <string name="step_three">First you have to see Status from Whatsapp or WA Business.</string>
+    <string name="step_4">Step 4</string>
+    <string name="step_four">Once you seen status in Whatsapp or WA Business then open this application Your seen status will be here in this app and from here you can Download and Share.</string>
+
+//admob ads Id-------------
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+
+    <string name="Nativeads">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="Bannerads">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstialads">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ad_attribution">Ad</string>
+
+</resources>

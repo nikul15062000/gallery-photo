@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="2dp"
+    android:id="@+id/dialog_chose_provider_title"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@color/colorPrimary"
+            android:id="@+id/rename_title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="24dp"
+            android:text="rename"
+            android:textColor="@color/md_dark_primary_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/container_edit_text"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="24dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

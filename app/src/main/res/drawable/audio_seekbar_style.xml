@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/it"
+        android:drawable="@drawable/audiosb_border_shadow" />
+    <item android:id="@+id/it11">
+        <clip android:drawable="@drawable/audioseekbar_progress" />
+    </item>
+</layer-list>

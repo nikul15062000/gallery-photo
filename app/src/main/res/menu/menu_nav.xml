@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_drw_gallery"
+        android:title="Gallery" />
+    <item android:id="@+id/nav_videoplayer"
+        android:icon="@drawable/ic_drw_video_player"
+        android:title="Video Player"/>
+    <item android:id="@+id/nav_statussaver"
+        android:icon="@drawable/ic_drw_status_saver"
+        android:title="Status Saver"/>
+    <item android:id="@+id/nav_more"
+        android:icon="@drawable/ic_drw_more_app"
+        android:iconTint="@color/Themecolor"
+        android:title="More App"/>
+    <item android:id="@+id/nav_rate"
+        android:icon="@drawable/ic_drw_rate_us"
+        android:iconTint="@color/Themecolor"
+        android:title="Rate"/>
+    <item android:id="@+id/nav_share"
+        android:icon="@drawable/ic_drw_share"
+        android:iconTint="@color/Themecolor"
+        android:title="Share"/>
+    <item android:id="@+id/nav_privacy"
+        android:icon="@drawable/ic_drw_privacy_policy"
+        android:iconTint="@color/Themecolor"
+        android:title="Privacy"/>
+</menu>

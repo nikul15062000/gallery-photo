@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/footer">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/tc"
+    android:layout_centerInParent="true"
+    android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ic_brightness" />
+    <SeekBar
+        android:id="@+id/seekBar12"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:max="255"
+        android:layout_gravity="center_vertical"
+        android:maxHeight="5dip"
+        android:minHeight="5dip"
+        android:paddingLeft="20dp"
+        android:paddingRight="12dp"
+        android:progressTint="@color/text_color_white"
+        android:thumbTint="@color/text_color_white" />
+</LinearLayout>
+</RelativeLayout>

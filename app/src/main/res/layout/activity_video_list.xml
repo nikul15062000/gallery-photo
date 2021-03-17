@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Themecolor"
+        app:titleTextColor="@color/white"
+        android:textAlignment="center"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ToolbarTheme"
+        >
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/ad_rel"
+        android:layout_below="@+id/my_toolbar"
+        android:paddingTop="10dp">
+        <LinearLayout
+            android:id="@+id/native_ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ad_rel"
+        android:background="#fff">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/PhoneVideoList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:divider="@null"
+            android:cacheColorHint="#00000000"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_google"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+
+</RelativeLayout>

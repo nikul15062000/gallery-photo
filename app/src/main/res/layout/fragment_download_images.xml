@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Statusaver.fragments.downloadImages"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Not Download Data"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/text"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:columnWidth="@dimen/picture_column_width"/>
+
+</RelativeLayout>

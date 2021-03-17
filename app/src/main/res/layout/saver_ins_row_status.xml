@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center" >
+
+
+    <ImageView
+        android:id="@+id/gridImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#15000000"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/transparent">
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:src="@drawable/ic_status_item_share"
+            android:background="@drawable/ic_round_play"
+            />
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/ic_status_item_download"
+            android:background="@drawable/ic_round_play"
+            />
+        <ImageView
+            android:id="@+id/delet"
+            android:visibility="gone"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/ic_status_item_delete"
+            android:background="@drawable/ic_round_play"
+            />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/mask"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:visibility="gone"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:buttonTint="@color/chkbox_color"/>
+</RelativeLayout>
